@@ -1,0 +1,117 @@
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin: 0;
+	font-family: arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 17px;
+	color: #f7efd5;
+	line-height: 1.6;
+}
+
+
+#showcase {
+
+background-image: url(../images/lantern2.jpg);
+/*It helps to think of VH (viewport height) as 100 horizontal
+slices, and you can take up as many of those slices as you want,
+so to take up all of the viewport heigh, it's all 100 slices.*/
+height: 100vh;
+background-size: cover;
+background-position: left-center;
+
+
+/*Initiates flexbox*/
+display:flex; 
+
+/*by default, items flex horizontally in a row, 
+this intitates vertical flex, in a column.*/
+flex-direction:column;
+
+/*centers items vertically*/
+justify-content: center; 
+
+/*centers items horizontally*/
+align-items: center;
+
+text-align: center;
+
+padding-top: 15%;
+padding-bottom: 0;
+padding-left: 52%; 
+padding-right: 17%;
+
+
+}
+
+#showcase blockquote {
+	font-size: 14px;
+}
+
+#showcase h1 {
+	font-size: 50px;
+	line-height: 1.2;
+	color: #8c8c94;
+	text-shadow: 2px 2px #633524;
+
+}
+
+#showcase p {
+	font-size: 20px;
+}
+
+#showcase .abutton {
+	font-size: 18px;
+	text-decoration: none;
+	color: #8c8c94;
+	border: #8c8c94 1px solid;
+	padding: 10px 20px;
+	border-radius: 20px;
+	margin-top: 23px;
+
+}
+
+#showcase .abutton:hover {
+	background-color:#f7efd5;
+	color: #23262e;
+}
+
+#section-a {
+	padding: 20px;
+	background-color: #23262e;
+	color:#f7efd5;
+	text-align: center;
+
+}
+
+#section-b {
+	padding: 20px;
+	background-color: #f7efd5;
+	color: #23262e;
+	text-align: center;
+	
+}
+
+#section-c {
+	display:flex;
+}
+
+#section-c div {
+	padding: 20px;
+	
+}
+
+#section-c .box1, #section-c .box3 {
+background-color: #23262e;
+color: #f7efd5;
+
+}
+
+#section-c .box2 {
+	background-color: #f7efd5;
+	color:#23262e;
+}
